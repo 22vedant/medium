@@ -1,8 +1,6 @@
 import './App.css';
 import {
 	createBrowserRouter,
-	Routes,
-	Route,
 	RouterProvider,
 	Navigate,
 } from 'react-router-dom';
@@ -11,10 +9,8 @@ import Landing from './pages/Landing';
 import Signup from './pages/Signup';
 import Signin from './pages/Signin';
 import Me from './pages/Me';
-import Skeleton from './components/Skeleton';
 import { Suspense } from 'react';
 import Loading from './components/Loading';
-import NewCard from './components/NewCard';
 import Create from './pages/Create';
 
 function App() {
