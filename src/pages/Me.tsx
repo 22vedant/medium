@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
-import Card from '../components/Card';
 import NewCard from '../components/NewCard';
 import Topbar from '../components/Topbar';
 

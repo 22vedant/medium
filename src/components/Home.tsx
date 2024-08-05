@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import Card from './Card';
 import NewCard from './NewCard';
 
 interface Post {
